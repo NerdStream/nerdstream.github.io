@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-li,a,input {
+li,input {
     font-family: "Fredoka One", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -13,7 +13,15 @@ li,a,input {
     text-decoration: none;
 }
 
-
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-decoration: none;
+    color: #24242A;
+}
 
 header {
     display: flex;
@@ -31,6 +39,7 @@ header {
 
 .nav__links {
     list-style: none;
+    
 }
 
 .nav__links li {
@@ -40,10 +49,19 @@ header {
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 .nav__links li a:hover {
     color: aqua;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 #searchbar {
@@ -70,3 +88,20 @@ header {
     color: grey;
 }
 
+#mail {
+    margin-left: 50px;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #24242A;
+    text-decoration: none;
+}
+
+#mail:hover {
+    margin-left: 50px;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: aqua;
+    text-decoration: none;
+}

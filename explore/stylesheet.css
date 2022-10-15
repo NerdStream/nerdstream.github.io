@@ -11,9 +11,8 @@ li,a,input {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    border: 0;
 }
-
-
 
 header {
     display: flex;
@@ -22,11 +21,11 @@ header {
     background-color: #24242A;
     padding: 30px 10%;
     size: 100%;
+    border: 0;
 }
 
 .logo {
     cursor: pointer;
-    
 }
 
 .nav__links {
@@ -63,6 +62,23 @@ header {
     background-color: #24242A;
     text-decoration: none;
     outline: none;
+}
+
+#taskbar {
+    background-color: grey;
+    position: fixed;
+}
+
+#taskbarstuff {
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+#taskbarstuff:hover {
+    font-size: 40px;
+    cursor: pointer;
+    color: aqua;
 }
 
 #open {
